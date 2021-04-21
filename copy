@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+</head>
+<body>
+    <h4>青春不常在，抓紧谈恋爱</h4>
+    <table   >
+        <tr>
+            <td>性别：</td>
+            <td><input type="radio" checked="checked" name="sex" id="male"><label for="male">男</label>
+                 <input type="radio" name="sex" id="female"><label for="female">女</label>
+                </td>
+        </tr>
+        <tr>
+            <td>生日：</td>
+            <td>
+                <select>
+                    <option>--请选择年份--</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                </select>
+                <select>
+                    <option>--请选择月份--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <select>
+                    <option>--请选择日--</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>所在地区：</td>
+            <td>
+                <select>
+                    <option>北京</option>
+                    <option>上海</option>
+                    <option>深圳</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>婚姻状况</td>
+            <td><input type="radio" checked="checked" name="hunyin">已婚
+                <input type="radio" name="hunyin"> 未婚 
+                <input type="radio" name="hunyin">离婚
+            </td>
+        </tr>
+        <tr>
+            <td>学历：</td>
+            <td><input type="text" value="高中"></td>
+        </tr>
+        <tr>
+            <td>喜欢的类型：</td>
+            <td><input type="checkbox">可爱的 
+                <input type="checkbox">妩媚的
+                <input type="checkbox">都喜欢
+            </td>
+        </tr>
+        <tr>
+            <td>个人介绍</td>
+            <td><textarea>个人简介</textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="免费注册"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" checked="checked">我同意注册条款</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="#" target="_black">我是会员，立即登录</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <h5>标题</h5>
+                <ul>
+                    <li>111111</li>
+                    <li>22222</li>
+                    <li>333333</li>
+                </ul>
+            </td>
+        </tr>
